@@ -15,4 +15,4 @@ io.on("connection", (socket) => {
 })
 
 console.log("[+] Sockets on")
-httpServer.listen(4444)
+httpServer.listen(process.env.PORT)
