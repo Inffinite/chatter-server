@@ -1,6 +1,3 @@
-// const { WebSocketServer } = require('ws');
-
-// const server = new WebSocketServer({ port: 4444 })
 const { createServer } = require("http")
 const { Server } = require('socket.io')
 
